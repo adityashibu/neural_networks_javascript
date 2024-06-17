@@ -1,2 +1,2 @@
-# road_detection
+# Neural Networks in JavaScript
 Building a road detection model using VGG Net and Tensor
