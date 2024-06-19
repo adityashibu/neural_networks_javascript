@@ -1,15 +1,14 @@
 class Controls {
-    constructor(carType) {
+    constructor(type) {
         this.forward = false;
         this.left = false;
         this.right = false;
         this.reverse = false;
 
-        switch (carType) {
-            case "MAIN":
+        switch (type) {
+            case "KEYS":
                 this.#addKeyboardListeners();
                 break;
-
             case "DUMMY":
                 this.forward = true;
                 break;
